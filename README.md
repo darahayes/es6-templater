@@ -16,7 +16,7 @@ var result = template('Hello, my name is ${name}. I am from ${country}', {
 })
 
 console.log(result)
-// 'Hello, my name is Dara'. I am from Ireland'
+// 'Hello, my name is Dara. I am from Ireland'
 ```
 
 ### Linting
