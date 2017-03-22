@@ -1,0 +1,38 @@
+{
+  "name": "es6-templater",
+  "version": "1.0.0",
+  "description": "A very simple string interpolate function.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js | tap-spec",
+    "lint": "standard | snazzy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darahayes/es6-templater.git"
+  },
+  "keywords": [
+    "string",
+    "interpolate",
+    "template",
+    "es6",
+    "templating"
+  ],
+  "author": "Dara Hayes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darahayes/es6-templater/issues"
+  },
+  "homepage": "https://github.com/darahayes/es6-templater#readme",
+  "devDependencies": {
+    "pre-commit": "^1.2.2",
+    "snazzy": "^6.0.0",
+    "standard": "^9.0.2",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  },
+  "pre-commit": [
+    "lint",
+    "test"
+  ]
+}
