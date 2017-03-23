@@ -5,6 +5,8 @@
 This is a tiny string interpolation function that mimics the es6 template literal syntax.
 It's a very simple function for simple use cases.
 
+Tested on all versions of Node.js.
+
 ### Usage
 
 ```js
